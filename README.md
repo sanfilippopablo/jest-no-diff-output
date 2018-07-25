@@ -3,4 +3,4 @@ npm install
 npm test
 ```
 
-Test using `pluginTester` doesn't show a diff. The other simple test using `assert` does.
+When the test is a simple sync function it shows the diff. When the test function returns a promise, then it doesn't show a diff.
